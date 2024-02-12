@@ -1,0 +1,135 @@
+nav {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-nav {    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#17233D;
+    cursor: pointer;    
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+}
+
+.button-nav {
+    background: #6FBF44;
+    border: 1px solid #4cb538;
+    border-radius: 6px;   
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;   
+}
+
+.button-secundario {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 1px;
+   color: #6FBF44;
+   cursor: pointer;
+   background: transparent;
+   border: none;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        margin: 20px 0 60px 20px;
+      }
+
+      .link-nav {
+        display: none;
+      }
+
+      .button-nav {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        position: absolute;
+        top: 17px;
+        left: 245px;
+        text-align: center;       
+      }
+
+
+      img {
+        max-width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;         
+      }
+
+      div {
+        margin: 0 27px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        display: block;   
+      }
+
+
+      h1 {
+        font-size: 30px;
+        line-height: 30px;
+        max-width: 278px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 29px;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      p {
+        max-width: 304px;
+        height: 165px;
+        margin: auto;   
+        text-align: center;
+      }
+
+      .button-secundario {
+        max-width: 113px;
+        height: 27px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+      }
+}
