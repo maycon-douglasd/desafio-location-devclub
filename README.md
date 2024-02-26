@@ -7,3 +7,9 @@
 <p>-HTML</p>
 <p>-CSS</p>
 
+Desktop:
+
+<img src="https://github.com/maycon-douglasd/location/blob/main/img/desktop-location.png?raw=true" width="650px"/>
+<br>
+Mobile:
+<img src=""/>
